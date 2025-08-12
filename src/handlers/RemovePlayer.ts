@@ -1,7 +1,7 @@
 import { Socket } from 'socket.io';
 import { Server as SocketIOServer } from 'socket.io';
 import { Pool } from 'mysql2/promise';
-import { Player, ReturnData } from '../types';
+import { Player, ReturnData } from '../types.js';
 import { PullPlayerData } from '../utils/PullPlayerData';
 
 export async function RemovePlayer(

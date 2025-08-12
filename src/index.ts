@@ -13,7 +13,7 @@ import {
     GuessData, 
     RevealData, 
     ProgressData 
-} from './types';
+} from './types.js';
 
 // Import functions that will be moved to separate files
 import { GenerateGame } from './handlers/GenerateGame';

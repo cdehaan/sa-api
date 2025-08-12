@@ -1,5 +1,5 @@
 import { Pool } from 'mysql2/promise';
-import { PlayerData } from '../types';
+import { PlayerData } from '../types.js';
 
 // Pull data about all the players in the room
 export async function PullPlayerData(roomCode: string, pool: Pool): Promise<PlayerData[]> {

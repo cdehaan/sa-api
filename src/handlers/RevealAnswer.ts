@@ -1,7 +1,7 @@
 import { Socket } from 'socket.io';
 import { Server as SocketIOServer } from 'socket.io';
 import { Pool } from 'mysql2/promise';
-import { Player, RevealData, ReturnData } from '../types';
+import { Player, RevealData, ReturnData } from '../types.js';
 import { SanitizeData } from '../utils/SanitizeData';
 import { PullRoomData } from '../utils/PullRoomData';
 import { PullPlayerData } from '../utils/PullPlayerData';

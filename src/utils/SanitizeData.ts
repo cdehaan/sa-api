@@ -1,5 +1,5 @@
 import { Pool } from 'mysql2/promise';
-import { AllowedInput } from '../types';
+import { AllowedInput } from '../types.js';
 import { VerifyPlayer } from './VerifyPlayer';
 
 interface SanitizedData {

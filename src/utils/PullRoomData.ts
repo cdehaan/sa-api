@@ -1,5 +1,5 @@
 import { Pool } from 'mysql2/promise';
-import { RoomData, Card, Question } from '../types';
+import { RoomData, Card, Question } from '../types.js';
 
 // Pull the room's information, including the current questions if the game has started
 export async function PullRoomData(roomCode: string, pool: Pool): Promise<RoomData | null | false> {

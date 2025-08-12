@@ -1,5 +1,5 @@
 import { Pool } from 'mysql2/promise';
-import { PlayerVerificationData, VerificationResults } from '../types';
+import { PlayerVerificationData, VerificationResults } from '../types.js';
 
 export async function VerifyPlayer(
     playerData: PlayerVerificationData, 
